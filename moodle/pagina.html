@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="es" xml:lang="es">
+<head>
+    <title>Curso: PROBABILIDAD Y ESTADÍSTICA-01</title>
+    <link rel="shortcut icon" href="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/theme/1414765834/favicon" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Curso: PROBABILIDAD Y ESTADÍSTICA-01" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/campusvirtual.univalle.edu.co\/moodle","sesskey":"KAaqnl46y0","loadingicon":"https:\/\/campusvirtual.univalle.edu.co\/moodle\/theme\/image.php\/_s\/leatherbound\/core\/1414765834\/i\/loading_small","themerev":"1414765834","slasharguments":1,"theme":"leatherbound","jsrev":"1414765834","svgicons":false};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"https:\/\/campusvirtual.univalle.edu.co\/moodle\/lib\/yuilib\/3.13.0\/","comboBase":"https:\/\/campusvirtual.univalle.edu.co\/moodle\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/campusvirtual.univalle.edu.co\/moodle\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/campusvirtual.univalle.edu.co\/moodle\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/campusvirtual.univalle.edu.co\/moodle\/theme\/yui_combo.php?m\/1414765834\/","combine":true,"comboBase":"https:\/\/campusvirtual.univalle.edu.co\/moodle\/theme\/yui_combo.php?","ext":false,"root":"m\/1414765834\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","event-key","dd-plugin","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-calendar-eventmanager":{"requires":["base","node","event-mouseenter","overlay","moodle-calendar-eventmanager-skin"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-block_messageteacher-form":{"requires":["base","io","io-form","node","json","moodle-core-notification"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-notification-alert"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-theme_bootstrapbase-bootstrap":{"requires":["node","selector-css3"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/campusvirtual.univalle.edu.co\/moodle\/lib\/javascript.php\/1414765834\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="https://campusvirtual.univalle.edu.co/moodle/theme/yui_combo.php?3.13.0/cssreset/cssreset-min.css&amp;3.13.0/cssfonts/cssfonts-min.css&amp;3.13.0/cssgrids/cssgrids-min.css&amp;3.13.0/cssbase/cssbase-min.css" /><link rel="stylesheet" type="text/css" href="https://campusvirtual.univalle.edu.co/moodle/theme/yui_combo.php?rollup/3.13.0/yui-moodlesimple-min.css" /><script type="text/javascript" src="https://campusvirtual.univalle.edu.co/moodle/theme/yui_combo.php?rollup/3.13.0/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://campusvirtual.univalle.edu.co/moodle/theme/yui_combo.php?rollup/1414765834/mcore-min.js"></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://campusvirtual.univalle.edu.co/moodle/theme/styles.php/_s/leatherbound/1414765834/all/chunk0" />
+<script type="text/javascript" src="https://campusvirtual.univalle.edu.co/moodle/lib/javascript.php/1414765834/lib/javascript-static.js"></script>
+<script type="text/javascript" src="https://campusvirtual.univalle.edu.co/moodle/theme/javascript.php/leatherbound/1414765834/head"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<title>Campus Virtual-Universidad del Valle</title>
+		<meta name="description" content="Bienvenidos al Campus Virtual Univalle
+		La Universidad del Valle pone a disposición de sus docentes y estudiantes esta valiosa herramienta denominada Campus Virtual Univalle bajo la plataforma Moodle. Con esta herramienta se facilitarán los procesos de enseñanza aprendizaje en las asignaturas que ofrece la institución, en sus distintas modalidades educativas, tanto para los Programas de Pregrado y Posgrado.
+		La Universidad les presenta un cálido saludo y los invita a conocer y a familiarizarse con esta potente herramienta." />
+		<meta name="author" content="DINTEV"/>
+              <meta name="keywords" content="cursos educacion virtual aprendizaje e-learning campus " />
+               <meta name = "robáis" content="All" />
+               <meta name="Distribution" content="Global" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4692832-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  <script>
+  $(function() {
+    $( ".block_course_list .content .column #accordion" ).accordion({
+      heightStyle: "content"
+    });
+  });
+</script>
+<script type="text/javascript"
+src="https://campusvirtual.univalle.edu.co/moodle/lib/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+
+
+
+
+
+</head>
+
+<body id="page-course-view-weeks" class="format-weeks  path-course path-course-view ie ie6 dir-ltr lang-es yui-skin-sam yui3-skin-sam campusvirtual-univalle-edu-co--moodle pagelayout-course course-20366 context-644745 category-30761 ">
+<div class="skiplinks"><a class="skip" href="#maincontent">Saltar a contenido principal</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+ <script type="text/javascript">
+    YUI().use('node', function(Y) {
+        window.thisisy = Y;
+    	Y.one(window).on('scroll', function(e) {
+    	    var node = Y.one('#back-to-top');
+
+    	    if (Y.one('window').get('docScrollY') > Y.one('#page-content-wrapper').getY()) {
+    		    node.setStyle('display', 'block');
+    	    } else {
+    		    node.setStyle('display', 'none');
+    	    }
+    	});
+
+    });
+    </script>
+
+<div id="page">
+    <div id="page-header">
+						  <a href="http://www.univalle.edu.co/">
+                                                <div id="logosimbolo"> </div>
+						  </a>
+
+						<div id="login">
+						<div class="profilepic" id="profilepic">
+										<a href="https://campusvirtual.univalle.edu.co/moodle/user/view.php?id=52096&amp;course=20366">
+										<img src="https://campusvirtual.univalle.edu.co/moodle/user/pix.php?file=/52096/f1.jpg"/>
+										</a>
+								</div>
+								<div class="profilename" id="profilename">
+								<div class="logininfo">Usted se ha identificado como <a href="https://campusvirtual.univalle.edu.co/moodle/user/profile.php?id=52096" title="Ver perfil">CARLOS ROMAN PALACIOS</a> (<a href="https://campusvirtual.univalle.edu.co/moodle/login/logout.php?sesskey=KAaqnl46y0">Salir</a>)</div>
+								</div>
+						</div>        <div id="menu_horizontal">
+            <ul class="menu_horizontal">
+            <li><a href="http://www.univalle.edu.co/busquedas.html" target="_blank" class="menu_horizontal">Buscar</a></li>
+            <li><a href="http://www.univalle.edu.co/directorio/" target="_blank" class="menu_horizontal">Directorio</a></li>
+            <li><a href="http://biblioteca.univalle.edu.co/" target="_blank" class="menu_horizontal">Biblioteca</a></li>
+            <li class="idioma"> <div class="langmenu"><form method="get" action="https://campusvirtual.univalle.edu.co/moodle/course/view.php" id="single_select_f549b2c998448615"><div><input type="hidden" name="id" value="20366" /><label for="single_select549b2c998448616"><span class="accesshide " >Idioma</span></label><select id="single_select549b2c998448616" class="select autosubmit langmenu" name="lang"><option value="de">Deutsch (de)</option><option value="en">English (en)</option><option selected="selected" value="es">Español - Internacional (es)</option><option value="fr">Français (fr)</option><option value="it">Italiano (it)</option><option value="pt">Português - Portugal (pt)</option></select><noscript class="inline"><div><input type="submit" value="Ir" /></div></noscript></div></form></div></li>
+            </ul>
+        </div>
+        
+        </div
+
+
+
+
+
+                    <div class="navbar">
+                <div class="wrapper clearfix">
+                    <div class="breadcrumb"><span class="accesshide">Ruta a la página</span><ul role="navigation"><li><a href="https://campusvirtual.univalle.edu.co/moodle/">Página Principal</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a title="PROBABILIDAD Y ESTADÍSTICA-01" href="https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=20366">00-761130M-01-201408041</a></li></ul></div>
+                    <div class="navbutton"> </div>
+                </div>
+            </div>
+        
+<!-- END OF HEADER -->
+<div id="page-content-wrapper" class="wrapper clearfix">
+    <div id="page-content">
+        <div id="region-main-box">
+            <div id="region-post-box">
+
+                <div id="region-main-wrap">
+                    <div id="region-main">
+                        <div class="region-content">
+                                                        <div role="main"><span id="maincontent"></span><div class="course-content"><div class="titulo_curso">PROBABILIDAD Y ESTADÍSTICA-01</div><h2 class="accesshide">Diagrama semanal</h2><ul class="weeks"><li id="section-0" class="section main clearfix" role="region" aria-label="General"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname accesshide">General</h3><div class="summary"></div><ul class="section img-text"><li class="activity forum modtype_forum " id="module-381266"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://campusvirtual.univalle.edu.co/moodle/mod/forum/view.php?id=381266"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/forum/1414765834/icon" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Novedades<span class="accesshide " > Foro</span></span></a></div></div></div></div></li></ul></div></li><li id="section-1" class="section main clearfix" role="region" aria-label="Sesión Inicial - Agosto 21"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Sesión Inicial - Agosto 21</h3><div class="summary"><div class="no-overflow"><span style="font-size: medium;">En la sesión inicial del curso de Probabilidad y Estadística se leyó y comentó el programa del curso, el cual se anexa. Abordamos los primeros conceptos a) experimento aleatorio b) espacio muestral c) definición de eventos d) primera definición de probabilidad en un espacio muestral homogéneo e) reglas para contar (conceptos básicos de combinatoria). Con estos elementos podemos realizar el primer taller que se anexa.  Anexamos un taller (Cuentas claras) donde se utilizan los conceptos trabajados en esta sesión.  Incluimos un libro del profesor Santos editado con elegancia y que circula libremente por Internet.  Observa que el libro contiene problemas que han sido colocados en pruebas y concursos académicos. </span></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-381300"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=381300&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=381300"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/document-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Programa de Probabilidad y estadística<span class="accesshide " > Archivo</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-381313"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=381313&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=381313"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/document-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Taller inicial de probabilidades (con algo de combinatoria)<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">problemas iniciales de probabilidad</div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-381317"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=381317&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=381317"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Taller # 1 - Cuentas claras<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">Problemas iniciales (con algo de combinatoria)</div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-381336"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=381336&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=381336"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Probabilidad elemental del profesor David Santos (inglés)<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><span style="font-size: medium;">Conceptos básicos en probabilidad y muchas otras cosas</span></div></div></div></div></div></div></li></ul></div></li><li id="section-2" class="section main clearfix" role="region" aria-label="Sesión de Estadística Descriptiva"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Sesión de Estadística Descriptiva</h3><div class="summary"><div class="no-overflow"><span style="font-size: medium;">Haremos una breve incursión al importante tema de la Estadística Descriptiva, que en principio es uno de los mejores instrumentos para interpretar ciertos fenómenos demográficos, sociales y económicos. Para ello utilizaremos el EXCEL. Lo que haremos es apenas una iniciación. Volveremos a este tema una vez que hayamos abordado las variables aleatorias y trabajaremos en el lenguaje R. En esta ocasión si el tiempo nos alcanza haremos una introducción al R.</span></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-390342"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=390342&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=390342"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/document-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Taller de estadística descriptiva<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><span style="font-size: medium;">Trabajaremos en cuatro temas: a) crecimiento de la  población colombiana b) una idea sobre la enorme desigualdad en la tenencia  de la tierra en Colombia c) series de precipitación en el Valle del Cauca d) estadísticas que reflejan unas tasas de homicidio en Cali, que podríamos considerarlas dramáticas - en relación con las tasas mundiales y latinoamericanas   </span></div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-390344"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=390344&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=390344"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/spreadsheet-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Cuadros de población (Censos 2005, 1993, 1985, 1973 y 1964)<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">Cuadros de población colombiana intercensal</div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-390347"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=390347&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=390347"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/spreadsheet-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Precipitaciones en el Valle del Cauca<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">Una serie de las precipitaciones en el Ingenio Providencia</div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-390348"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=390348&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=390348"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/document-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Tasas de homicidios en ciudades colombianas<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">El dramático fenómeno de Cali en estos años</div></div></div></div></div></div></li></ul></div></li><li id="section-3" class="section main clearfix" role="region" aria-label="Sesión de Estadística Descriptiva"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Sesión de Estadística Descriptiva</h3><div class="summary"><div class="no-overflow"><span style="font-size: medium;">Se anexa el taller de Estadística descriptiva que se pensaba resolver en la sesión pasada. Si es posible llevar el computador personal el próximo Jueves a clase, podríamos ampliar el taller de estadística descriptiva resolviendo los problemas de tenencia de la tierra y de precipitación pluvial en el Valle del Cauca; trabajaremos con <strong>R. </strong>Este lenguaje es de uso libre y es utilizado ampliamente por los investigadores y usuarios  en estadística. Existe también una versión para la línea MacPro. </span><br /><span style="font-size: medium;">Al comienzo de la clase realizaremos un <em>quiz</em> con problemas  similares a los que hemos realizado en clase. Se anexa una lista de cinco problemas. Se invita a los estudiantes a resolverlos. Es la única manera de avanzar en estos conceptos básicos, no solamente en la vida académica sino también en la vida cotidiana.   </span></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-391361"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=391361&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=391361"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/document-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Taller de estadística descriptiva II<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">Con dos problemas adicionales: Precipitación y tenencia de la tierra</div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-391524"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=391524&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=391524"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/document-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Cinco problemas <span class="accesshide " > Archivo</span></span></a></div></div></div></div></li></ul></div></li><li id="section-4" class="section main clearfix" role="region" aria-label="Sesión de dependencia e independencia estadística "><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Sesión de dependencia e independencia estadística </h3><div class="summary"><div class="no-overflow"><span style="font-size: medium;">En la sesión de hoy abordamos el tema de la dependencia e independencia estadística. Al final de la sesión resolvimos por el método de Montecarlo (con R) el problema de las coincidencias. Se propone al estudiante un taller con problemas en donde se utiliza el concepto de dependencia e independencia. Se anexa también un taller con ejercicios de Montecarlo (programas de computador que resuelven algunos problemas de probabilidad de manera aproximada). Se anexa un enlace a un problema muy popular (la probabilidad se volvió mediática) que alguna vez se llevó al cine y a la TV.</span></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-393239"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=393239&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=393239"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/document-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Concurso Monty Hall <span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><span style="font-size: medium;">Un concurso probabilístico muy popular</span></div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-393243"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=393243&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=393243"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/document-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Taller  de probabilidades (con dependencia estadística)<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><span style="font-size: medium;">Los problemas tienen un tono diferente a los vistos en la primera parte del curso; son problemas más aplicados a la vida real</span></div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-393247"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=393247&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=393247"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/document-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Introducción a los métodos de Montecarlo<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><span style="font-size: medium;">El cálculo de probabilidades y la programación de computadores se encuentran </span></div></div></div></div></div></div></li></ul></div></li><li id="section-5" class="section main clearfix" role="region" aria-label="Sesión de preparación para el primer examen parcial"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Sesión de preparación para el primer examen parcial</h3><div class="summary"><div class="no-overflow"><span style="font-size: medium;">Tendremos el primer examen parcial el Jueves 17 de Octubre. El examen versará sobre el cálculo de probabilidad: experimento aleatorio, espacio muestral, eventos, álgebra de eventos, definición clásica de probabilidad, introducción a la combinatoria (problemas de urnas, balotas, rifas, juegos, recorridos); probabilidades subjetivas, probabilidades condicionales, dependencia e independencia, regla de Bayes. </span><br /><span style="font-size: medium;">Se anexa un examen practicado en un semestre anterior que con algunos ejercicios pendientes resolveremos en la próxima clase. Invitamos a los estudiantes a resolverlo.<br /></span><br /><span style="font-size: medium;">Anexamos un artículo de un columnista del Espectador, José Fernando Isaza, quien entre otras cosas especula con la probabilidad de tener un buen alcalde para Bogotá. Se anexa también un artículo de la revista española "Investigación y Ciencia". Un artículo que todos los estudiantes deberían al menos comprender. Tal vez algunos lo disfruten.  </span></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-395855"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=395855&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=395855"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Un examen tentativo<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><span style="font-size: medium;">Un examen parcial propuesto a los estudiantes en un curso pasado</span></div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-395862"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=395862&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=395862"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">U artículo político_probabilístico<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><span style="font-size: medium;">El autor José Fernando Isaza especula con alguna ironía probabilística sobre el próximo alcalde de Bogotá</span></div></div></div></div></div></div></li><li class="activity folder modtype_folder " id="module-395863"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://campusvirtual.univalle.edu.co/moodle/mod/folder/view.php?id=395863"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/folder/1414765834/icon" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Nunca digas nunca (tomado de Investigación y Ciencia)<span class="accesshide " > Carpeta</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><span style="font-size: medium;">Un artículo que contradice creencias sobre el azar loterías, rifas, cumpleaños, etc. muy populares. Valdría la pena discutirlo en el curso. </span></div></div></div></div></div></div></li></ul></div></li><li id="section-6" class="section main clearfix" role="region" aria-label="Sesión de preparación para el primer examen parcial´"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Sesión de preparación para el primer examen parcial´</h3><div class="summary"><div class="no-overflow"><span style="font-size: medium;">Colocaremos aqui 1) un antiguo examen de probabilidad 2) Algunos ejercicios tomados de la literatura. Es muy probable que quien resuelva el examen y los ejercicios pase el primer parcial.</span></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-397071"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=397071&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=397071"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/document-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Un examen tentativo<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><span style="font-size: medium;">Un examen realizado en un semestre anterior</span></div></div></div></div></div></div></li></ul></div></li><li id="section-7" class="section main clearfix" role="region" aria-label="Preparación par el primer examen parcial"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Preparación par el primer examen parcial</h3><div class="summary"><div class="no-overflow"><span style="font-size: medium;">Se adjunta un cuestionario con problemas resueltos, y un primer examen parcial con su solución</span></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-398796"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=398796&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=398796"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Un examen tentativo con su solución<span class="accesshide " > Archivo</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-398797"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=398797&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=398797"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/document-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Problemas con solución<span class="accesshide " > Archivo</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-399108"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=399108&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=399108"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Solución de un problema de ingreso a la Universidad<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><span style="font-size: medium;">Solución al problema del ICFES  planteado en un taller</span></div></div></div></div></div></div></li></ul></div></li><li id="section-8" class="section main clearfix" role="region" aria-label="Aviso a los estudiantes"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Aviso a los estudiantes</h3><div class="summary"><div class="no-overflow"><h6>Primer examen parcial y calificaciones del primer examen parcial</h6></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-402437"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402437&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402437"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Calificaciones del primer examen parcial<span class="accesshide " > Archivo</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-402439"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402439&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402439"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Cuestionario primer examen parcial<span class="accesshide " > Archivo</span></span></a></div></div></div></div></li></ul></div></li><li id="section-9" class="section main clearfix" role="region" aria-label="Iniciación a las variables aleatorias discretas"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Iniciación a las variables aleatorias discretas</h3><div class="summary"><div class="no-overflow"><h4>Iniciación al tema de las variables aleatorias: en esta parte del curso trataremos 1) Variables aleatorias discretas 2) Variables aleatoria continuas  3) Estadística descriptiva para proponer variables aleatorias (introducción a los modelos probabilísticos empíricos) 3) Métodos de Montecarlo. Incluimos aquí: 1) Un taller que trata sobre cuestiones básicas de las variables aleatorias discretas 2) Un artículo de la revista Ciencia Historia que trata sobre la ley de los grandes números - uno de los aspectos básicos de las variables aleatorias - 3) Un libro completo de probabilidad (cuyo primer capítulo está escrito para un lector interesado en las ciencias de la computación 4) Primer cuestionario sobre variables aleatorias discretas   </h4></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-402452"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402452&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402452"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Unas ideas básicas sobre las variables aleatorias discretas<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">Nociones básicas de variables aleatorias discretas</div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-402454"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402454&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402454"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Artículo sobre los grandes números<span class="accesshide " > Archivo</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-402455"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402455&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402455"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Variables aleatorias para estudiantes de ciencias de la computación<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><h4>Conceptos, teorías, ejercicios y problemas propuestos y resueltos orientados hacia las ciencias de la computación; "<em>Introduction to probability" </em>; Grinstead and Snell</h4></div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-402459"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402459&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=402459"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Cuestionario de variables aleatorias discretas<span class="accesshide " > Archivo</span></span></a></div></div></div></div></li></ul></div></li><li id="section-10" class="section main clearfix" role="region" aria-label="Aviso a los estudiantes sobre las lecturas"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Aviso a los estudiantes sobre las lecturas</h3><div class="summary"><div class="no-overflow"><span style="font-size: medium;">He revisado el libro de Grinstead and Snell: Introduction to probability; estoy un poco asombrado de la belleza y utilidad de ese libro. Creo que no circula por nuestras aulas puesto que tiene un orden "<em>sui generis".</em> Pero con lo que hemos avanzado en este curso ya podríamos comenzar a leer y a disfrutar este estupendo tratado. <em> </em>Tiene apartes que pueden ser estudiados y presentados en el curso como lecturas. Propone problemas que pueden ser estudiados y presentados en el curso. </span><br /><span style="font-size: medium;">Una aplicación que desde la misma iniciación de la probabilidad (particularmente con Bernoulli y a finales del siglo XVII con el sabio francés Condorcet) fue la relación de la probabilidad con la justicia. Ya elaboramos un intento de aplicación cuando resolvimos un problema que tenía que ver con una "batida" en una supuesta <em>olla</em> de Cali. A los estudiantes interesados en el tema de la justicia les sería de gran utilidad referirse a dos artículos, tomados del <em>Mathematical Magazine (JSTOR)</em>,  que tratan el asunto de la culpabilidad desde la perspectiva de las coincidencias con el ADN y desde perspectivas más generales. Finalmente, una estudiante ha encontrado un artículo sobre la iniciación de la probabilidad. Hay muchas ideas y cuestiones importantes en este artículo. </span><br /><em><br /></em></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-404132"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=404132&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=404132"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Coincidencias con el ADN <span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><h4>El artículo trata del juicio a O.J. Simpson, acusado de homicidio. Fue la primera vez que se utilizaron las pruebas de ADN en un juicio por asesinato en una corte en EE. UU.  </h4></div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-404138"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=404138&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=404138"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Aplicaciones de la probabilidad al derecho <span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><h4>Aplicaciones de la dependencia e independencia estadística y del  teorema de Bayes en el ejercicio del Derecho. Se recalca la importancia de que los abogados conozcan de estos temas </h4></div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-404254"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=404254&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=404254"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Inicios de la probabilidad<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><h4>Un artículo que estudia los aportes de los iniciadores de la probabilidad; aparecen las contribuciones de grandes científicos como Pascal. Fermat, Huygens, Bernoulli, Laplace y varios más.</h4></div></div></div></div></div></div></li></ul></div></li><li id="section-11" class="section main clearfix" role="region" aria-label="Aviso a los estudiantes"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Aviso a los estudiantes</h3><div class="summary"><div class="no-overflow"><h2>Aviso: <br /><br />La sesión de mañana, Jueves 6 de Noviembre   la llevaremos a cabo en la sala de computadores de la Escuela de estadística (Ed. 357)  </h2></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-405533"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=405533&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=405533"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Métodos de Montecarlo<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><h4>Taller de simulación (utilizando los métodos de Montcarlo)</h4></div></div></div></div></div></div></li></ul></div></li><li id="section-12" class="section main clearfix" role="region" aria-label="Preparación para el segundo examen parcial"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Preparación para el segundo examen parcial</h3><div class="summary"><div class="no-overflow"><h4>Problemas para poner a prueba y afinar los conceptos sobre variables aleatorias</h4></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-409775"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=409775&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=409775"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Problemas de probabilidad y variables aleatorias <span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><h4>Problemas para resolver en el salón de clases (algunos tienen su historia)</h4></div></div></div></div></div></div></li></ul></div></li><li id="section-13" class="section main clearfix" role="region" aria-label="Sesiones finales"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Sesiones finales</h3><div class="summary"><div class="no-overflow"><h2>Para consultas estaré el Martes y el Miércoles de esta semana (2 y 3 de Diciembre) de 10 a 12 M; en el salón de profesores del Instituto de Educación y Pedagogía (Tercer Piso) </h2></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-410878"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=410878&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=410878"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Propiedades de la distribución normal<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><h4>Propiedades de la distribución normal y de otras variables aleatorias. Artículo del profesor Roberto Behar </h4></div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-410885"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=410885&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=410885"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Un examen sobre variables aleatorias anterior<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><h4>Segundo examen parcial (2012)</h4></div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-410898"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=410898&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=410898"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">solución a un examen de variables aleatorias <span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><h4>Solución a un examen de variables aleatorias (2013)</h4></div></div></div></div></div></div></li></ul></div></li><li id="section-14" class="section main clearfix" role="region" aria-label="Finalización del curso"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Finalización del curso</h3><div class="summary"><div class="no-overflow"><h4>AVISO 1: El miércoles 10 de Diciembre,  de 4 a 5 PM, atenderé las consultas acerca de los supletorios o de las presentaciones,  en el salón de profesores (tercer piso) del IEP (Instituto de Educación y pedagogía)<em style="font-size: 1.5em; line-height: 1.4;"> </em></h4>
+<h4>Se han colocado las notas en el siguiente archivo. Se entiende que estas notas serán las calificaciones definitivas si el estudiante no presenta el supletorio o la lectura del artículo seleccionado.  </h4></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-412198"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="window.open(&#039;https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=412198&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=600,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=412198"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/f/spreadsheet-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Calificaciones del curso (antes de supletorios)<span class="accesshide " > Archivo</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><h4>Calificaciones del curso. Estaré el Jueves a las 7 AM en el salón de clases para entrega de los exámenes y para la realización del supletorio. Algunos estudiantes me han solicitado aplazar este examen. De todas maneras los estudiantes interesados deberán asistir a la sesión del Jueves</h4></div></div></div></div></div></div></li></ul></div></li><li id="section-15" class="section main clearfix" role="region" aria-label="Finalización del curso"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Finalización del curso</h3><div class="summary"><div class="no-overflow"><h4>Algunos grupos de estudiantes realizaron hoy por la mañana las presentaciones acordadas. Hemos aplazado para el próximo jueves 18 de Diciembre de  8 AM a 10 AM, la presentación del examen supletorio. Nos vemos cerca del salón de clases. He subido las notas (antes del supletorio) al sistema de registro académico. Si el estudiante no presenta el supletorio esa será su nota definitiva. <br /><br /><br /><br /><br /></h4></div></div><ul class="section img-text"></ul></div></li><li id="section-16" class="section main clearfix" role="region" aria-label="Sesiones finales"><div class="left side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="right side"><img width="1" height="1" class="spacer" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/spacer" /></div><div class="content"><h3 class="sectionname">Sesiones finales</h3><div class="summary"><div class="no-overflow"><h4>Hoy, Jueves 18 de Diciembre,  se realizó el examen supletorio. Las calificaciones del curso (notas definitivas) son las que se encuentran consignadas en el SAR. Felices vacaciones.</h4></div></div><ul class="section img-text"></ul></div></li></ul></div></div>                                                    </div>
+                    </div>
+                </div>
+
+                                <div id="region-pre" class="block-region">
+                    <div class="region-content">
+                        <a href="#sb-1" class="skip-block">Saltar Administración</a><div id="inst142756" class="block_settings  block" role="navigation" data-block="settings" data-instanceid="142756" aria-labelledby="instance-142756-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-142756-header">Administración</h2></div></div><div class="content"><div id="settingsnav" class="box block_tree_box"><ul class="block_tree list"><li class="type_course contains_branch" aria-expanded="true"><p class="tree_item branch root_node"><span tabindex="0">Administración del curso</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://campusvirtual.univalle.edu.co/moodle/grade/report/index.php?id=20366"><img alt="" class="smallicon navicon" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/i/grades" />Calificaciones</a></p></li></ul></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><hr /><p class="tree_item branch root_node" id="usersettings"><span tabindex="0">Ajustes de mi perfil</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://campusvirtual.univalle.edu.co/moodle/user/edit.php?id=52096&amp;course=20366"><img alt="" class="smallicon navicon" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/i/navigationitem" />Editar perfil</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://campusvirtual.univalle.edu.co/moodle/login/change_password.php?id=20366"><img alt="" class="smallicon navicon" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/i/navigationitem" />Cambiar contraseña</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://campusvirtual.univalle.edu.co/moodle/user/managetoken.php?sesskey=KAaqnl46y0"><img alt="" class="smallicon navicon" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/i/navigationitem" />Claves de seguridad</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://campusvirtual.univalle.edu.co/moodle/message/edit.php?id=52096"><img alt="" class="smallicon navicon" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/i/navigationitem" />Mensajería</a></p></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://campusvirtual.univalle.edu.co/moodle/blog/preferences.php"><img alt="" class="smallicon navicon" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/i/navigationitem" />Preferencias</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://campusvirtual.univalle.edu.co/moodle/blog/external_blogs.php"><img alt="" class="smallicon navicon" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/i/navigationitem" />Blogs externos</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://campusvirtual.univalle.edu.co/moodle/blog/external_blog_edit.php"><img alt="" class="smallicon navicon" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/i/navigationitem" />Registrar un blog externo</a></p></li></ul></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Insignias</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://campusvirtual.univalle.edu.co/moodle/badges/preferences.php"><img alt="" class="smallicon navicon" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/i/navigationitem" />Preferencias</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://campusvirtual.univalle.edu.co/moodle/badges/mybackpack.php"><img alt="" class="smallicon navicon" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/i/navigationitem" />Configuración de la mochila</a></p></li></ul></li></ul></li></ul></div></div></div><span id="sb-1" class="skip-block-to"></span><a href="#sb-2" class="skip-block">Saltar Personas</a><div id="inst193464" class="block_participants  block list_block" role="complementary" data-block="participants" data-instanceid="193464" aria-labelledby="instance-193464-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-193464-header">Personas</h2></div></div><div class="content"><ul class="unlist"><li class="r0"><div class="column c1"><a title="Lista total de personas" href="https://campusvirtual.univalle.edu.co/moodle/user/index.php?contextid=644745"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/i/users" class="icon" alt="" />Participantes</a></div></li></ul></div></div><span id="sb-2" class="skip-block-to"></span><a href="#sb-3" class="skip-block">Saltar Message My Teacher</a><div id="inst193466" class="block_messageteacher  block" role="complementary" data-block="messageteacher" data-instanceid="193466" aria-labelledby="instance-193466-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-193466-header">Message My Teacher</h2></div></div><div class="content"><ul>
+<li><a href="https://campusvirtual.univalle.edu.co/moodle/blocks/messageteacher/message.php?courseid=20366&amp;referurl=https%3A%2F%2Fcampusvirtual.univalle.edu.co%2Fmoodle%2Fcourse%2Fview.php%3Fid%3D20366&amp;recipientid=24025" class="messageteacher_link"><span>ARBELAEZ ROJAS DANIEL</span></a></li>
+</ul></div></div><span id="sb-3" class="skip-block-to"></span><a href="#sb-4" class="skip-block">Saltar Actividades</a><div id="inst193465" class="block_activity_modules  block list_block" role="navigation" data-block="activity_modules" data-instanceid="193465" aria-labelledby="instance-193465-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-193465-header">Actividades</h2></div></div><div class="content"><ul class="unlist"><li class="r0"><div class="column c1"><a href="https://campusvirtual.univalle.edu.co/moodle/mod/forum/index.php?id=20366"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/forum/1414765834/icon" class="icon" alt="" />Foros</a></div></li>
+<li class="r1"><div class="column c1"><a href="https://campusvirtual.univalle.edu.co/moodle/course/resources.php?id=20366"><img class="icon" alt="" title="" src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/mod_page/1414765834/icon" />Recursos</a></div></li></ul></div></div><span id="sb-4" class="skip-block-to"></span>                    </div>
+                </div>
+                
+                                <div id="region-post" class="block-region">
+                    <div class="region-content">
+                        <a href="#sb-5" class="skip-block">Saltar Buscar en los foros</a><div id="inst193461" class="block_search_forums  block" role="search" data-block="search_forums" data-instanceid="193461" aria-labelledby="instance-193461-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-193461-header">Buscar en los foros</h2></div></div><div class="content"><div class="searchform"><form action="https://campusvirtual.univalle.edu.co/moodle/mod/forum/search.php" style="display:inline"><fieldset class="invisiblefieldset"><legend class="accesshide">Buscar</legend><input name="id" type="hidden" value="20366" /><label class="accesshide" for="searchform_search">Buscar</label><input id="searchform_search" name="search" type="text" size="16" /><button id="searchform_button" type="submit" title="Buscar">Ir</button><br /><a href="https://campusvirtual.univalle.edu.co/moodle/mod/forum/search.php?id=20366">Búsqueda avanzada</a><span class="helptooltip"><a href="https://campusvirtual.univalle.edu.co/moodle/help.php?component=moodle&amp;identifier=search&amp;lang=es" title="Ayuda con Buscar" aria-haspopup="true" target="_blank"><img src="https://campusvirtual.univalle.edu.co/moodle/theme/image.php/_s/leatherbound/core/1414765834/help" alt="Ayuda con Buscar" class="iconhelp" /></a></span></fieldset></form></div></div></div><span id="sb-5" class="skip-block-to"></span><a href="#sb-6" class="skip-block">Saltar Últimas noticias</a><div id="inst193462" class="block_news_items  block" role="complementary" data-block="news_items" data-instanceid="193462" aria-labelledby="instance-193462-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-193462-header">Últimas noticias</h2></div></div><div class="content">(Sin novedades aún)</div></div><span id="sb-6" class="skip-block-to"></span><a href="#sb-7" class="skip-block">Saltar Actividad reciente</a><div id="inst193463" class="block_recent_activity  block" role="complementary" data-block="recent_activity" data-instanceid="193463" aria-labelledby="instance-193463-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-193463-header">Actividad reciente</h2></div></div><div class="content"><div class="activityhead">Actividad desde Wednesday, 24 de December de 2014, 16:05</div><div class="activityhead"><a href="https://campusvirtual.univalle.edu.co/moodle/course/recent.php?id=20366">Informe completo de la actividad reciente...</a></div><p class="message">Sin novedades desde el último acceso</p></div></div><span id="sb-7" class="skip-block-to"></span>                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+    <div id="back-to-top"> 
+        <a class="arrow" href="#">▲</a> 
+        <a class="text" href="#">Back to Top</a> 
+    </div>
+
+<!-- START OF FOOTER -->
+        <div id="page-footer" class="wrapper">
+        <p class="helplink"></p>
+        <div class="logininfo">Usted se ha identificado como <a href="https://campusvirtual.univalle.edu.co/moodle/user/profile.php?id=52096" title="Ver perfil">CARLOS ROMAN PALACIOS</a> (<a href="https://campusvirtual.univalle.edu.co/moodle/login/logout.php?sesskey=KAaqnl46y0">Salir</a>)</div><div class="homelink"><a href="https://campusvirtual.univalle.edu.co/moodle/">Página Principal</a></div>    </div>
+    </div>
+
+
+<div id="footer"><div id="contactos" class="block">	
+<div id="titulo_contacto" class="header">Mayor informacion</div>					
+	<ul>
+	  <li>Dirección de Nuevas Tecnologías y Educación Virtual - DINTEV</li>
+	  <li>Vicerrectoría Académica </li>
+	  <li>c.e: <a href="mailto:campusvirtual@correounivalle.edu.co">campusvirtual@correounivalle.edu.co</a></li>
+	  <li>Tel: +57 318 2649 ó Ext. Univalle: 2649 Oficina 2004 </li>	
+	  <li>Edificio 317 - CREE, Ciudadela Universitaria Meléndez</li>
+	  <li>Universidad del Valle - Cali, Colombia &copy; 2005-2013</li>
+	</ul>					
+</div>
+<script type="text/javascript" src="https://campusvirtual.univalle.edu.co/moodle/lib/javascript.php/1414765834/course/format/weeks/format.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima modificaci\u00f3n","name":"Nombre","error":"Error","info":"Informaci\u00f3n","morehelp":"M\u00e1s ayuda","loadinghelp":"Cargando...","cancel":"Cancelar","yes":"S\u00ed","ok":"OK"},"repository":{"type":"Tipo","size":"Tama\u00f1o","invalidjson":"Cadena JSON no v\u00e1lida","nofilesattached":"No se han adjuntado archivos","filepicker":"Selector de archivos","logout":"Salir","nofilesavailable":"No hay archivos disponibles","norepositoriesavailable":"Lo sentimos, ninguno de sus repositorios actuales puede devolver archivos en el formato solicitado.","fileexistsdialogheader":"El archivo existe","fileexistsdialog_editor":"Un archivo con el mismo nombre ya se ha adjuntado al texto que est\u00e1 editando.","fileexistsdialog_filemanager":"Un archivo con ese nombre ya ha sido adjuntado","renameto":"Cambiar el nombre a","referencesexist":"Existen {$a} archivos de alias\/atajos que emplean este archivo como su or\u00edgen","select":"Seleccionar"},"block":{"addtodock":"Minimizar en la barra lateral","undockitem":"Desacoplar este \u00edtem","dockblock":"Acoplar bloque {$a}","undockblock":"Desacoplar bloque {$a}","undockall":"Desacoplar todo","hidedockpanel":"Esconder el panel desacoplado","hidepanel":"Esconder panel"},"langconfig":{"thisdirectionvertical":"btt"},"admin":{"confirmation":"Confirmaci\u00f3n"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-dock-loader",function() {M.core.dock.loader.initLoader();
+});
+function legacy_activity_onclick_handler_1(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=92&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_2(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/page/view.php?id=156958&inpopup=1', '', 'width=1000,height=900,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_3(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/page/view.php?id=157014&inpopup=1', '', 'width=1000,height=900,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_4(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=2005&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_5(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/url/view.php?id=118902&redirect=1', '', 'width=1250,height=700,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_6(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=94&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_7(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=95&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_8(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=96&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_9(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/resource/view.php?id=321049&redirect=1', '', 'width=800,height=700,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_10(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/page/view.php?id=2995&inpopup=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_11(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/page/view.php?id=3046&inpopup=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_12(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/page/view.php?id=157004&inpopup=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_13(e) { e.halt(); window.open('https://campusvirtual.univalle.edu.co/moodle/mod/page/view.php?id=407125&inpopup=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"142756","instance":"142756","candock":true});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-block_messageteacher-form",function() {M.block_messageteacher.form.init();
+});
+M.util.help_popups.setup(Y);
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-formautosubmit",function() {M.core.init_formautosubmit({"selectid":"single_select549b2c998448616","nothing":false});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+ M.util.js_pending('random549b2c998448617'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random549b2c998448617'); });
+
+});
+//]]>
+</script>
+
+
+</body>
+</html>
+object(Materia)#871 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=20325"
+  ["nombre"]=>
+  string(40) "INTRODUCCIÓN A LA GESTIÓN AMBIENTAL-02"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#872 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=20450"
+  ["nombre"]=>
+  string(29) "SISTEMAS DE INFORMACIÓN I-80"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#873 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=20209"
+  ["nombre"]=>
+  string(30) "COMPLEJIDAD Y OPTIMIZACIÓN-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#874 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=20143"
+  ["nombre"]=>
+  string(28) "PROGRAMACIÓN INTERACTIVA-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#875 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=20117"
+  ["nombre"]=>
+  string(47) "APLICACIONES EN EL WEB Y REDES INALÁMBRICAS-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#876 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=19948"
+  ["nombre"]=>
+  string(65) "INTRODUCCIÓN DE LAS PLATAFORMAS DE COMPUTACIÓN A GRAN ESCALA-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#877 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=19447"
+  ["nombre"]=>
+  string(33) "SEMINARIO DE PROYECTO DE GRADO-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#879 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=18204"
+  ["nombre"]=>
+  string(30) "PROBABILIDAD Y ESTADÍSTICA-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#880 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=18562"
+  ["nombre"]=>
+  string(23) "FUNDAMENTOS DE REDES-80"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#881 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=18153"
+  ["nombre"]=>
+  string(28) "DESARROLLO DE SOFTWARE II-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#882 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=18149"
+  ["nombre"]=>
+  string(45) "INTRODUCCIÓN A LA INTELIGENCIA ARTIFICIAL-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#883 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=18136"
+  ["nombre"]=>
+  string(24) "COMPUTACIÓN GRÁFICA-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#885 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=16503"
+  ["nombre"]=>
+  string(44) "FUNDAMENTOS DE LENGUAJES DE PROGRAMACIÓN-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#886 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=16483"
+  ["nombre"]=>
+  string(22) "SISTEMAS OPERATIVOS-80"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#887 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=16153"
+  ["nombre"]=>
+  string(27) "DESARROLLO DE SOFTWARE I-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#888 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=15794"
+  ["nombre"]=>
+  string(19) "BASES DE DATOS I-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#889 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=15793"
+  ["nombre"]=>
+  string(19) "BASES DE DATOS I-80"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#891 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=14619"
+  ["nombre"]=>
+  string(34) "ANÁLISIS Y MÉTODOS NUMÉRICOS-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#892 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=14153"
+  ["nombre"]=>
+  string(51) "FUNDAMENTOS DE ANÁLISIS Y DISEÑO DE ALGORITMOS-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#894 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=13552"
+  ["nombre"]=>
+  string(28) "MATEMÁTICAS DISCRETAS II-80"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#896 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=11104"
+  ["nombre"]=>
+  string(28) "PROGRAMACIÓN INTERACTIVA-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#897 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=11337"
+  ["nombre"]=>
+  string(28) "MATEMÁTICAS DISCRETAS II-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#898 (3) {
+  ["vinculo"]=>
+  string(69) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=11106"
+  ["nombre"]=>
+  string(15) "CÁLCULO III-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#900 (3) {
+  ["vinculo"]=>
+  string(68) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=9889"
+  ["nombre"]=>
+  string(55) "INTRODUCCIÓN A LA PROGRAMACIÓN ORIENTADA A OBJETOS-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#901 (3) {
+  ["vinculo"]=>
+  string(68) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=9794"
+  ["nombre"]=>
+  string(27) "MATEMÁTICAS DISCRETAS I-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#902 (3) {
+  ["vinculo"]=>
+  string(68) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=9679"
+  ["nombre"]=>
+  string(18) "ÁLGEBRA LINEAL-05"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#904 (3) {
+  ["vinculo"]=>
+  string(68) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=8208"
+  ["nombre"]=>
+  string(44) "LECTURA TEXTOS ACADÉMICOS EN INGLÉS III-30"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#905 (3) {
+  ["vinculo"]=>
+  string(68) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=8233"
+  ["nombre"]=>
+  string(45) "INTRODUCCIÓN A LA INGENIERÍA DE SISTEMAS-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#906 (3) {
+  ["vinculo"]=>
+  string(68) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=8474"
+  ["nombre"]=>
+  string(46) "INTRODUCCIÓN A LA TECNOLOGÍA INFORMÁTICA-07"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#907 (3) {
+  ["vinculo"]=>
+  string(68) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=8629"
+  ["nombre"]=>
+  string(31) "FUNDAMENTOS DE PROGRAMACIÓN-01"
+  ["monitorear"]=>
+  bool(true)
+}
+object(Materia)#909 (3) {
+  ["vinculo"]=>
+  string(68) "https://campusvirtual.univalle.edu.co/moodle/course/view.php?id=9385"
+  ["nombre"]=>
+  string(61) "ANÁLISIS DE LA PROPUESTA DE REFORMA A LA EDUCACIÓN SUPERIOR"
+  ["monitorear"]=>
+  bool(true)
+}
